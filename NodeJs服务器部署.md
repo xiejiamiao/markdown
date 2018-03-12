@@ -235,3 +235,4 @@ sudo service fail2ban stop #关闭
 sudo service fail2ban start #开启
 ```
 
+测试一下
