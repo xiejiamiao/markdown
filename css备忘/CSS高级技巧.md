@@ -12,4 +12,4 @@ textarea{
 
 ### vertical-algin
 
-chui
+不影响块级元素中的内容对齐，只针对行内元素或者行内块元素
