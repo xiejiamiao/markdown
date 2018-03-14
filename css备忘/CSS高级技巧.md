@@ -19,6 +19,9 @@ textarea{
     img{
         vertical-algin: middle;
     }
+    textarea{
+        vertical-algin: middle;
+    }
 </style>
 <div>
     <img src='a.jpg'/>中线对齐
@@ -27,3 +30,4 @@ textarea{
 </div>
 ```
 
+###
