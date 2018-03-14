@@ -34,4 +34,8 @@ textarea{
 
 #### word-break：自动换行 
 
-normal:
+normal:使用浏览器默认的换行规则
+
+break-all:允许在单词内换行
+
+keep-all:
