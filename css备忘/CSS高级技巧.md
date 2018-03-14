@@ -21,8 +21,9 @@ textarea{
     }
 </style>
 <div>
-    <img src='a.jpg'/>
-    中线对齐
+    <img src='a.jpg'/>中线对齐
+    <hr/>
+    用户留言：<textarea></textarea>
 </div>
 ```
 
