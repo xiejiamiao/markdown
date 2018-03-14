@@ -30,4 +30,8 @@ textarea{
 </div>
 ```
 
-###
+### 溢出的文字处理
+
+#### word-break：自动换行 
+
+normal:
