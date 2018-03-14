@@ -36,6 +36,8 @@ textarea{
 
 normal:使用浏览器默认的换行规则
 
-break-all:允许在单词内换行
+break-all:允许在单词内换行(允许单词拆开显示)
 
-keep-all:
+keep-all:只能在半角空格或连字符处换行
+
+> 主要处理英文单词
