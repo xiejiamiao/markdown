@@ -62,8 +62,9 @@ ellipsis:当对象内文本溢出时显示省略标记(...)
 
 ```css
 div{
-    white-space: nowrap;
-    
+    white-space: nowrap; /*首先强制一行显示*/
+    overflow: hidden; /*其次要设置溢出隐藏*/
+    text-overflow: ellipsis; /*最后设置裁剪*/
 }
 ```
 
