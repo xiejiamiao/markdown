@@ -61,7 +61,7 @@ img:hover{
 }
 ```
 
-指定旋转中心点
+指定变形中心点
 
 ```css
 img{
@@ -69,10 +69,14 @@ img{
     border-radius: 50%;
     border: 10px solid #ccc;
     transition: all 0.5s;
-    transform-origin: top left; /*设置变形中心店*/
+    transform-origin: top left; /*设置变形中心点*/
 }
 img:hover{
     transform: rotate(180deg);
 }
 ```
+
+
+
+#### skew (倾斜)
 
