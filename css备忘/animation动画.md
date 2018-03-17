@@ -18,11 +18,11 @@ div{
     animation:动画名称 动画时间 运动曲线 何时开始 播放次数 是否反方向;
 }
 @keyframes 动画名称 { /*定义名称*/
-    from{
-        transform: 
+    from{ /*from 和 to也可以用百分比*/
+        transform: translateX(0);
     }
     to{
-        
+        transform: translateX(600px);
     }
 }
 ```
