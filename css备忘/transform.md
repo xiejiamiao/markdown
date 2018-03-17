@@ -54,11 +54,11 @@ div:hover{
 img{
     transition: all 0.5s;
     border-radius: 50%;
+    border: 10px solid #ccc;
 }
 img:hover{
     transform: rotate(90deg); /*deg=度数*/
 }
 ```
 
-
-
+指定旋转中心店
