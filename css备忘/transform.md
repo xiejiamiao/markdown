@@ -39,9 +39,14 @@ div{
     width: 100px;
     height: 100px;
     background-color: #ccc;
+    transition: all 0.5s;
 }
 div:hover{
-    transform: scale(1.2, 1.5); /*x=水平缩放 y=*/
+    transform: scale(1.2, 1.5); /*x=水平缩放 y=垂直缩放*/
 }
 ```
+
+
+
+#### rotate (旋转)
 
