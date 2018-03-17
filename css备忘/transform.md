@@ -92,3 +92,13 @@ div{
 
 ##### rotateXYZ
 
+```css
+img{
+    transition: all 0.5s;
+}
+img:hover{
+    transform: rotateX(180deg); /*X轴旋转*/
+    
+}
+```
+
