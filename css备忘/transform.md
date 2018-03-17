@@ -107,7 +107,7 @@ img:hover{
 
 ```css
 body{
-    
+    perspective: 500px; /*视距*/
 }
 ```
 
