@@ -50,3 +50,15 @@ div:hover{
 
 #### rotate (旋转)
 
+```css
+img{
+    transition: all 0.5s;
+    border-radius: 50%;
+}
+img:hover{
+    transform: rotate(90deg); /*deg=度数*/
+}
+```
+
+
+
