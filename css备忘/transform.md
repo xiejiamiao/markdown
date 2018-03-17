@@ -9,7 +9,10 @@ div{
     width: 100px;
     height: 100px;
     background-color: #ccc;
-    tranform: translate(50px, y); /*tranform: translate(x, y);*/
+    tranform: translate(50px, 50px); /*tranform: translate(x, y);*/
+}
+div:active{
+    
 }
 ```
 
