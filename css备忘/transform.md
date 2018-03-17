@@ -98,7 +98,8 @@ img{
 }
 img:hover{
     transform: rotateX(180deg); /*X轴旋转*/
-    
+    transform: rotateY(180deg); /*Y轴旋转*/
+    transform: rotateZ(180deg)
 }
 ```
 
