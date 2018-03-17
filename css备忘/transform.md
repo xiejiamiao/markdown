@@ -61,4 +61,18 @@ img:hover{
 }
 ```
 
-指定旋转中心店
+指定旋转中心点
+
+```css
+img{
+    transition: all 0.5s;
+    border-radius: 50%;
+    border: 10px solid #ccc;
+    transition: all 0.5s;
+    transform-origin
+}
+img:hover{
+    transform: rotate(180deg);
+}
+```
+
