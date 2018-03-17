@@ -32,4 +32,16 @@ div{
 
 
 
-####scale(缩放)
+#### scale(缩放)
+
+```css
+div{
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+}
+div:hover{
+    transform: scale(1.2, 1.5); /*x=水平缩放 y=*/
+}
+```
+
