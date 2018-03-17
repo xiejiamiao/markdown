@@ -25,7 +25,11 @@ div{
     background-color: #ccc;
     position: absolute;
     left: 50%;
-    transform: translate(-50%);
+    top: 50%;
+    transform: translate(-50%, -50%); /*translate后面跟百分比是以自己的宽高来进行计算*/
 }
 ```
 
+
+
+####scale(缩放)
