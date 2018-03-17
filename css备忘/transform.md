@@ -1,4 +1,4 @@
-### 2D变形(CSS3) tranform
+### 2D变形(CSS3) transform
 
 transform可以实现元素的位移、旋转、倾斜、缩放、甚至支持矩阵方式，配合过渡和动画，可以取代大量之前只能靠flash才能实现的效果
 
@@ -9,10 +9,23 @@ div{
     width: 100px;
     height: 100px;
     background-color: #ccc;
-    tranform: translate(50px, 50px); /*tranform: translate(x, y);*/
+    transition: all 0.5s;
 }
 div:active{
-    
+    transform: translate(50px, 50px); /*transform: translate(x, y);*/
+}
+```
+
+让定位的盒子居中对齐的完美解决方法
+
+```css
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
 }
 ```
 
