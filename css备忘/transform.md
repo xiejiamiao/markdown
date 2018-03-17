@@ -69,7 +69,7 @@ img{
     border-radius: 50%;
     border: 10px solid #ccc;
     transition: all 0.5s;
-    transform-origin
+    transform-origin: top left; /*设置变形中心店*/
 }
 img:hover{
     transform: rotate(180deg);
